@@ -36,8 +36,8 @@ This project is part of an internship task from **InterTechub**, where the goal 
      ```bash
    node server.js
 4. **Access the routes:**
-###Once the server is running, you can access the routes:
-  http://localhost:3000/name for your full name.
-  http://localhost:3000/hobby for your favorite hobby.
-  http://localhost:3000/dream for a motivational message about your dream.
+Once the server is running, you can access the routes:
+  **http://localhost:8080/name** for your full name.
+  **http://localhost:8080/hobby** for your favorite hobby.
+  **http://localhost:8080/dream** for a motivational message about your dream.
 

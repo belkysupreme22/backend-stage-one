@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const port = 8080;
 
 app.get('/name', (req, res) => {
   res.status(200).send('Beamlakfekad Tatek'); 
@@ -22,7 +21,8 @@ app.get('/dream', (req, res) => {
     res.status(200).send('To create innovative software solutions that empower people, inspire change, and leave a lasting impact on the world.');
   });
   
-  app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
-  });
 
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
+});
